@@ -37,7 +37,7 @@ output.configure(state='disabled')
 prompt = tk.CTkEntry(janela, placeholder_text="Type a message", width=250)
 prompt.grid(row=1, column=0)
 
-enviar = tk.CTkButton(janela, text="Enviar", command=buscar)
+enviar = tk.CTkButton(janela, text="Send", command=buscar)
 enviar.grid(row=1, column=1)
 
 janela.mainloop()
