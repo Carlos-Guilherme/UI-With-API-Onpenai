@@ -27,7 +27,7 @@ def buscar():
 frame = tk.CTkFrame(janela)
 frame.grid(row=0, column=0, padx=10, pady=10, columnspan=2)
 
-titulo = tk.CTkLabel(frame, text='Chat com GPT-3', font=("", 25))
+titulo = tk.CTkLabel(frame, text='Chat with GPT-3', font=("", 25))
 titulo.grid(row=0, column=0, padx=10, pady=10)
 
 output = tk.CTkTextbox(frame, width=400, height=400)
