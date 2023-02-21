@@ -10,11 +10,12 @@ janela.grid_columnconfigure(1, weight=0)
 janela.grid_rowconfigure(0, weight=0)
 janela.grid_rowconfigure(1, weight=0)
 
-openai.api_key = "Your API"
+openai.api_key = "your api"
 
 model_engine = "text-davinci-003"
 
 def buscar():
+    output.configure(state='normal')
     response = openai.Completion.create(
     engine=model_engine,
     prompt= prompt.get(),
@@ -23,6 +24,7 @@ def buscar():
     )
     res = response['choices'][0]['text']
     output.insert('0.0', res)
+    output.configure(state='disabled')
 
 frame = tk.CTkFrame(janela)
 frame.grid(row=0, column=0, padx=10, pady=10, columnspan=2)
