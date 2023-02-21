@@ -6,5 +6,7 @@ The program consists of a graphical user interface that allows the user to conve
 The program is useful for demonstrating the use of the GPT-3 platform in a user-friendly and easy-to-use graphical interface. It can also be used as a basis for developing more complex conversation applications that use the GPT-3 platform as a central component.
 
 ##
+just type the message that the program tries to make a request to the openai api and returns the result
 
-![image](https://user-images.githubusercontent.com/72580077/220382670-9450c23b-3006-45aa-aa11-f31efe81ef77.png)
+![image](https://user-images.githubusercontent.com/72580077/220384300-8a840222-b38e-4388-a2d2-03ca397db64b.png)
+
