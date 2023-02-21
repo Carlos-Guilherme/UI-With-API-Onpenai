@@ -1,4 +1,4 @@
-# UI-With-API-Onpenai
+# GUI-With-API-Onpenai
 This program uses two dependent libraries: customtkinter and openai. The first is an extension of Python's standard tkinter library that adds custom widgets and features for graphical user interfaces. The second is a library that provides access to the OpenAI GPT-3 artificial intelligence platform.
 
 The program consists of a graphical user interface that allows the user to converse with the GPT-3 language model. When the user types a message in the text box and clicks the "Send" button, the message is sent to the GPT-3 model through the OpenAI API. The model responds with an artificial intelligence-generated message, which is displayed in the larger text box of the interface.
